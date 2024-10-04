@@ -6,7 +6,7 @@ import streamlit as st
 st.title('Bike Sharing Dataset')
 st.write('berikut ini merupakan visualisasi data tentang "Bike Sharing"')
 
-hour_df = pd.read_csv('hour.csv')
+hour_df = pd.read_csv('dashboard/hour.csv')
 st.subheader("Bike Hour Data")
 st.dataframe(hour_df)
 
